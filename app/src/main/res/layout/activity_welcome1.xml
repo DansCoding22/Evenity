@@ -36,6 +36,42 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/welcome_to_evenity" />
 
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/menu1"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/ic_circle_24"
+        app:altSrc="@drawable/ic_circle_full_24"
+        app:tint="@color/white" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/menu2"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintStart_toEndOf="@+id/menu1"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/ic_circle_24"
+        app:altSrc="@drawable/ic_circle_full_24"
+        app:tint="@color/white" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/menu3"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintStart_toEndOf="@+id/menu2"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/ic_circle_24"
+        app:altSrc="@drawable/ic_circle_full_24"
+        app:tint="@color/white" />
+
     <ImageView
         android:layout_width="337dp"
         android:layout_height="338dp"

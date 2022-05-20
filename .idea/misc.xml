@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Evenity/app/src/main/res/drawable/ic_circle_24.xml" value="0.1125" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Evenity/app/src/main/res/drawable/ic_circle_full_24.xml" value="0.1125" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/Evenity/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/Evenity/app/src/main/res/layout/activity_welcome1.xml" value="0.2" />
       </map>
