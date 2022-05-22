@@ -15,11 +15,16 @@ class SignInActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.buttonRegister.setOnClickListener { intentToRegister() }
+        binding.buttonSignIn.setOnClickListener { intentToHome() }
 
     }
 
     private fun intentToRegister() {
         val intent = Intent(this@SignInActivity, RegisterActivity::class.java)
         startActivity(intent)
+    }
+    private fun intentToHome() {
+        val intentHome = Intent(this@SignInActivity, HomeActivity::class.java)
+        startActivity(intentHome)
     }
 }
