@@ -1,5 +1,6 @@
 package com.danscoding.evenity
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.danscoding.evenity.databinding.ActivitySignInBinding
@@ -12,5 +13,13 @@ class SignInActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivitySignInBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        binding.buttonRegister.setOnClickListener { intentToRegister() }
+
+    }
+
+    private fun intentToRegister() {
+        val intent = Intent(this@SignInActivity, RegisterActivity::class.java)
+        startActivity(intent)
     }
 }
