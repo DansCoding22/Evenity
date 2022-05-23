@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="378dp"
-    android:layout_height="120dp"
+    android:layout_height="150dp"
+    android:layout_marginBottom="10dp"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_margin="20dp"
     android:layout_gravity="center|top"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardCornerRadius="15dp">
@@ -12,24 +12,97 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+            <ImageView
+                android:id="@+id/imageTeam"
+                android:layout_width="125dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/team1"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
         <ImageView
-            android:id="@+id/imageTeam"
-            android:layout_width="135dp"
-            android:layout_height="match_parent"
-            android:scaleType="centerCrop"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:src="@tools:sample/avatars" />
+            android:id="@+id/imageView"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/ic_star"
+            app:layout_constraintStart_toEndOf="@+id/textViewNameTeam"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/nameTeam"
-            android:layout_width="wrap_content"
+            android:id="@+id/textViewRating"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/jakartasans_bold"
+            android:text="5.0"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewNameTeam"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="4dp"
+            android:fontFamily="@font/jakartasans_bold"
+            android:textColor="@color/black"
             android:text="Nama Team Organizer "
+            android:textSize="16sp"
+            android:ellipsize="end"
+            android:maxLines="2"
             app:layout_constraintStart_toEndOf="@+id/imageTeam"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewCategoryTeam"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/jakartasans_regular"
+            android:text="Kategori Team"
+            android:textSize="14sp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            app:layout_constraintStart_toEndOf="@+id/imageTeam"
+            app:layout_constraintTop_toBottomOf="@+id/textViewNameTeam" />
+
+        <TextView
+            android:id="@+id/textViewStartPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:text="Start Price"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/imageTeam"
+            app:layout_constraintTop_toBottomOf="@+id/textViewCategoryTeam" />
+
+        <TextView
+            android:id="@+id/textViewPrice"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/jakartasans_regular"
+            android:text="Rp 1.500.000"
+            android:textColor="#FE3A30"
+            android:textSize="16sp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            app:layout_constraintStart_toEndOf="@+id/imageTeam"
+            app:layout_constraintTop_toBottomOf="@+id/textViewStartPrice" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.cardview.widget.CardView>

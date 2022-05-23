@@ -24,7 +24,7 @@ class SignInActivity : AppCompatActivity() {
         startActivity(intent)
     }
     private fun intentToHome() {
-        val intentHome = Intent(this@SignInActivity, HomeActivity::class.java)
+        val intentHome = Intent(this@SignInActivity, MainActivity::class.java)
         startActivity(intentHome)
     }
 }
