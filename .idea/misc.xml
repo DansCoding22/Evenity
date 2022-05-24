@@ -3,28 +3,27 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Evenity/app/src/main/res/drawable/ic_account_circle.xml" value="0.2075" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/Evenity/app/src/main/res/drawable/ic_circle_24.xml" value="0.1125" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/Evenity/app/src/main/res/drawable/ic_circle_full_24.xml" value="0.1125" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Evenity/app/src/main/res/layout/activity_home.xml" value="0.22" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/Evenity/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/Evenity/app/src/main/res/layout/activity_welcome1.xml" value="0.2" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Evenity/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Evenity/app/src/main/res/layout/fragment_notification.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Evenity/app/src/main/res/layout/item_row_notification.xml" value="0.33" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Evenity/app/src/main/res/menu/app_toolbar.xml" value="0.2" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/Evenity/app/src/main/res/drawable/custom_btn_primary.xml" value="0.1915" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/Evenity/app/src/main/res/drawable/custom_buton.xml" value="0.1915" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/Evenity/app/src/main/res/drawable/custom_edit_text.xml" value="0.1915" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/Evenity/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1915" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/Evenity/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.1915" />
-        <entry key="..\:/Users/asus/AndroidStudioProjects/Evenity/app/src/main/res/font-v26/font.xml" value="0.284375" />
-        <entry key="..\:/Users/asus/AndroidStudioProjects/Evenity/app/src/main/res/font/font.xml" value="0.23333333333333334" />
-        <entry key="..\:/Users/asus/AndroidStudioProjects/Evenity/app/src/main/res/layout/activity_home.xml" value="0.176" />
-        <entry key="..\:/Users/asus/AndroidStudioProjects/Evenity/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/Users/asus/AndroidStudioProjects/Evenity/app/src/main/res/layout/activity_main2.xml" value="0.20854700854700856" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Evenity/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Evenity/app/src/main/res/layout/activity_main.xml" value="0.152" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/Evenity/app/src/main/res/layout/activity_register.xml" value="0.20854700854700856" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/Evenity/app/src/main/res/layout/activity_sign_in.xml" value="0.176" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/Evenity/app/src/main/res/layout/activity_welcome1.xml" value="0.1" />
-        <entry key="..\:/Users/asus/AndroidStudioProjects/Evenity/app/src/main/res/layout/fragment_home.xml" value="0.264" />
-        <entry key="..\:/Users/asus/AndroidStudioProjects/Evenity/app/src/main/res/layout/fragment_message.xml" value="0.20854700854700856" />
-        <entry key="..\:/Users/asus/AndroidStudioProjects/Evenity/app/src/main/res/layout/fragment_notification.xml" value="0.197008547008547" />
-        <entry key="..\:/Users/asus/AndroidStudioProjects/Evenity/app/src/main/res/layout/fragment_profile.xml" value="0.20854700854700856" />
-        <entry key="..\:/Users/asus/AndroidStudioProjects/Evenity/app/src/main/res/layout/item_row_avail_team.xml" value="0.4" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/Evenity/app/src/main/res/layout/item_row_avail_team.xml" value="0.264" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/Evenity/app/src/main/res/layout/item_row_categories.xml" value="0.6" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/Evenity/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20854700854700856" />
       </map>
@@ -35,12 +34,5 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
-  </component>
-  <component name="VisualizationToolProject">
-    <option name="state">
-      <ProjectState>
-        <option name="scale" value="0.264" />
-      </ProjectState>
-    </option>
   </component>
 </project>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardImageNotification"
+        android:layout_width="105dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageNotification"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/team4" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textViewTitleNotification"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:text="Your Appointment Has Been Recieved"
+        android:fontFamily="@font/jakartasans_semibold"
+        app:layout_constraintStart_toEndOf="@+id/cardImageNotification"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewDescNotification"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/jakartasans_regular"
+        android:text="Your appointment ID has been checked by our team, you will be contacted by our team"
+        android:textSize="12sp"
+        android:ellipsize="end"
+        android:maxLines="4"
+        app:layout_constraintStart_toEndOf="@+id/cardImageNotification"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitleNotification" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
