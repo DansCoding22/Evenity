@@ -7,21 +7,40 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.danscoding.evenity.R
-import com.danscoding.evenity.Team
-import com.danscoding.evenity.TeamAdapter
+import com.danscoding.evenity.*
 
 class HomeFragment : Fragment() {
 
     private lateinit var recyclerView: RecyclerView
     private lateinit var teamList : ArrayList<Team>
     private lateinit var teamAdapter: TeamAdapter
+    private lateinit var categoriesList : ArrayList<Categories>
+    private lateinit var categoriesAdapter: CategoriesAdapter
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val view = inflater.inflate(R.layout.fragment_home, container, false)
 
         initRecyclerView(view)
+        initCategoriesRecycler(view)
         return view
+    }
+
+    private fun initCategoriesRecycler(view: View) {
+        recyclerView = view.findViewById(R.id.rvCategories)
+        recyclerView.setHasFixedSize(true)
+        recyclerView.layoutManager = LinearLayoutManager(context, RecyclerView.HORIZONTAL , false)
+
+        categoriesList = ArrayList()
+
+        categoriesList.add(Categories(R.drawable.truckicon))
+
+        categoriesAdapter = CategoriesAdapter((categoriesList))
+        categoriesAdapter = CategoriesAdapter((categoriesList))
+        categoriesAdapter = CategoriesAdapter((categoriesList))
+        categoriesAdapter = CategoriesAdapter((categoriesList))
+
+
+        recyclerView.adapter = categoriesAdapter
     }
 
     private fun initRecyclerView(view: View) {

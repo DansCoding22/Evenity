@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Evenity">
         <activity
+            android:name=".NavigationDrawerHomeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_navigation_drawer_home"
+            android:theme="@style/Theme.Evenity.NoActionBar" />
+        <activity
             android:name=".MainActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false"></activity>
         <activity
             android:name=".HomeActivity"
             android:exported="false" />
