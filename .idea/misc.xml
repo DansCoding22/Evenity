@@ -9,15 +9,16 @@
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/Evenity/app/src/main/res/drawable/ic_circle_full_24.xml" value="0.1125" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/Evenity/app/src/main/res/layout/activity_home.xml" value="0.22" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/Evenity/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Evenity/app/src/main/res/layout/activity_sign_in.xml" value="0.16417272338606242" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/Evenity/app/src/main/res/layout/activity_welcome1.xml" value="0.2" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/Evenity/app/src/main/res/layout/app_bar_navigation_drawer_home.xml" value="0.16417272338606242" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/Evenity/app/src/main/res/layout/content_navigation_drawer_home.xml" value="0.16417272338606242" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/Evenity/app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/Evenity/app/src/main/res/layout/fragment_message.xml" value="0.33" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/Evenity/app/src/main/res/layout/fragment_notification.xml" value="0.25" />
-        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Evenity/app/src/main/res/layout/fragment_profile.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Evenity/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/Evenity/app/src/main/res/layout/item_row_avail_team.xml" value="0.25" />
-        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Evenity/app/src/main/res/layout/item_row_categories.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/Evenity/app/src/main/res/layout/item_row_categories.xml" value="0.67" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/Evenity/app/src/main/res/layout/item_row_chats.xml" value="0.25" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/Evenity/app/src/main/res/layout/item_row_notification.xml" value="0.33" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/Evenity/app/src/main/res/menu/app_toolbar.xml" value="0.2" />

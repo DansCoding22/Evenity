@@ -12,7 +12,7 @@
         <FrameLayout
             android:id="@+id/frameLayout"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="205dp"
             android:background="@color/blue_ocean_700"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
@@ -29,7 +29,7 @@
                     android:layout_marginTop="30dp"
                     android:text="Hi!"
                     android:textColor="@color/white"
-                    android:textSize="24sp"
+                    android:textSize="30sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -40,7 +40,7 @@
                     android:layout_marginTop="30dp"
                     android:text="Daniel"
                     android:textColor="@color/white"
-                    android:textSize="24sp"
+                    android:textSize="30sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.038"
                     app:layout_constraintStart_toEndOf="@+id/textViewHi"
@@ -48,25 +48,14 @@
 
                 <TextView
                     android:id="@+id/textView3"
-                    android:layout_width="225dp"
+                    android:layout_width="325dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="24dp"
                     android:text="Welcome and we hope you enjoy the apps"
                     android:textColor="@color/white"
-                    android:textSize="12sp"
+                    android:textSize="16sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textViewHi" />
-
-                <com.google.android.material.floatingactionbutton.FloatingActionButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="28dp"
-                    android:layout_marginEnd="24dp"
-                    android:backgroundTint="@color/white"
-                    android:contentDescription="Profile"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/ic_account_circle" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
         </FrameLayout>
@@ -113,7 +102,7 @@
             android:id="@+id/rvCategories"
             android:layout_width="match_parent"
             android:layout_height="110dp"
-            android:layout_marginTop="4dp"
+            android:layout_marginTop="20dp"
             android:orientation="horizontal"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"

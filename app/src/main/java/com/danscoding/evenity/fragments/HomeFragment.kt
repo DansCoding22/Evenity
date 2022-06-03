@@ -32,7 +32,10 @@ class HomeFragment : Fragment() {
 
         categoriesList = ArrayList()
 
-        categoriesList.add(Categories(R.drawable.truckicon))
+        categoriesList.add(Categories(R.drawable.bride, "Weeding"))
+        categoriesList.add(Categories(R.drawable.music, "Music"))
+        categoriesList.add(Categories(R.drawable.video, "Videographer"))
+        categoriesList.add(Categories(R.drawable.camera, "Photographer"))
 
         categoriesAdapter = CategoriesAdapter((categoriesList))
         categoriesAdapter = CategoriesAdapter((categoriesList))
