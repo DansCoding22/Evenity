@@ -239,9 +239,9 @@
         <Button
             android:id="@+id/buttonSaveProfile"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="65dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="6dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/blue_pastel"
             android:text="Simpan"
